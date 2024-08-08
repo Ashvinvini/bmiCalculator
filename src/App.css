@@ -69,6 +69,7 @@ input {
   cursor: pointer;
   transition: background-color 0.3s;
   margin-right: 10px;
+  width: 150px;
 }
 .btn-1:hover {
   background-color: #0c5b91;
@@ -83,6 +84,7 @@ input {
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s;
+  width: 150px;
 }
 
 .btn-2:hover {
@@ -93,4 +95,14 @@ input {
   color: red;
   font-size: 14px;
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .bmi-calculator {
+    width: 400px;
+    min-height: 400px;
+  }
+  .btn-1 {
+    margin-bottom: 10px;
+  }
 }
